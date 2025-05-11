@@ -1,3 +1,6 @@
+![ERD!](https://drive.google.com/file/d/16CARNY6_7Cr8ENznagtjybeqBbXZr06u/view?usp=sharing)
+
+
 Relationship between Entities
 User	Property	1-to-Many	A host can own multiple properties
 User	Booking	1-to-Many	A guest can make multiple bookings
