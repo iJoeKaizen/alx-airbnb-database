@@ -12,7 +12,7 @@ FROM bookings
 INNER JOIN users ON bookings.users_id = users.id;
 
 
---#LEFT JOIN
+--# LEFT JOIN
 SELECT 
     properties.id AS property_id,
     properties.name,
@@ -22,6 +22,7 @@ SELECT
     reviews.comment
 FROM properties
 LEFT JOIN reviews ON properties.id = reviews.property_id;
+
 
 --# FULL OUTER JOIN
 SELECT 
